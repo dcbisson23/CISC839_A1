@@ -1,5 +1,5 @@
-TABLES_PATH = "spider_data/tables.json"
-QUESTIONS_PATH = "spider_data/dev.json"
+TABLES_PATH = "spider/tables.json"
+QUESTIONS_PATH = "spider/dev.json"
 
 # This is where model data (generation configs, formatted prompts, responses) are written to/read from.
 DATA_ROOT = "data"

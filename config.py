@@ -9,9 +9,9 @@ COT_PROMPTS_FILENAME = "cot_formatted_prompts.jsonl"
 RESPONSES_FILENAME = "responses.jsonl"
 COT_RESPONSES_FILENAME = "cot_responses.jsonl"
 # Code is statically saved in /scripts/.
-MODELS = [{"model": "Qwen/Qwen2.5-Coder-3B-Instruct", "can_reason": False},
-          {"model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "can_reason": False},
-          {"model": "Qwen/Qwen3-4B-Thinking-2507", "can_reason": True}]
+MODELS = [{"model": "Qwen/Qwen2.5-Coder-3B-Instruct", "can_reason": False, "use_in_Q3": True},
+          {"model": "Qwen/Qwen2.5-Coder-7B-Instruct", "can_reason": False, "use_in_Q3": False},
+          {"model": "Qwen/Qwen3-4B-Thinking-2507", "can_reason": True, "use_in_Q3": False}]
 
 SAMPLE_RATE = 0.125
 

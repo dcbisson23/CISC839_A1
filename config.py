@@ -1,5 +1,6 @@
 TABLES_PATH = "spider/tables.json"
 QUESTIONS_PATH = "spider/dev.json"
+GOLD_PATH = "spider/dev_gold.sql"
 
 # This is where model data (generation configs, formatted prompts, responses) are written to/read from.
 DATA_ROOT = "data"
@@ -8,6 +9,11 @@ PROMPTS_FILENAME = "formatted_prompts.jsonl"
 COT_PROMPTS_FILENAME = "cot_formatted_prompts.jsonl"
 RESPONSES_FILENAME = "responses.jsonl"
 COT_RESPONSES_FILENAME = "cot_responses.jsonl"
+PREDICTIONS_FILENAME = "predictions.txt"
+COT_PREDICTIONS_FILENAME = "cot_predictions.txt"
+GOLD_FILENAME = "gold.txt"
+REASONING_FILENAME = "reasoning.jsonl"
+
 # Code is statically saved in /scripts/.
 MODELS = [{"model": "Qwen/Qwen2.5-Coder-3B-Instruct", "can_reason": False, "use_in_q3": True},
           {"model": "Qwen/Qwen2.5-Coder-7B-Instruct", "can_reason": False, "use_in_q3": False},
